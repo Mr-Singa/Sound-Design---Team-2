@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class RotatePlayer : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public float movementSpeed;
+    private Vector3 moveDir;
 
-    // Update is called once per frame
     void Update()
     {
-        
+        moveDir = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical")).normalized;
+    }
+
+    private void FixedUpdate()
+    {
+        GetComponent<Rigidbody>().MovePosition(GetComponent<Rigidbody>().position + transform.TransformDirection(moveDir));
     }
 }
