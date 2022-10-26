@@ -14,6 +14,6 @@ public class RotatePlayer : MonoBehaviour
 
     private void FixedUpdate()
     {
-        GetComponent<Rigidbody>().MovePosition(GetComponent<Rigidbody>().position + transform.TransformDirection(moveDir));
+        GetComponent<Rigidbody>().MovePosition(GetComponent<Rigidbody>().position + transform.TransformDirection(moveDir * movementSpeed));
     }
 }
