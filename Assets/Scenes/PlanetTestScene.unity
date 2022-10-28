@@ -890,6 +890,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6634665782805513803, guid: fae80a07d10e1554b9cdac1dfc443226, type: 3}
+      propertyPath: orthographic
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6634665783904456654, guid: fae80a07d10e1554b9cdac1dfc443226, type: 3}
       propertyPath: attractPlanet
       value: 
