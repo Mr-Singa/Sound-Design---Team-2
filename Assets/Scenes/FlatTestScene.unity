@@ -879,7 +879,7 @@ Transform:
   - {fileID: 112973051}
   - {fileID: 1304110161}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &640436654
 GameObject:
@@ -1713,7 +1713,7 @@ Transform:
   - {fileID: 1315440616}
   - {fileID: 997943850}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1066122518
 MonoBehaviour:
@@ -2024,7 +2024,7 @@ Transform:
   - {fileID: 1102996617}
   - {fileID: 1617665965}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1230894818
 GameObject:
@@ -2059,7 +2059,7 @@ Transform:
   - {fileID: 948000060}
   - {fileID: 198037867}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1304110160
 GameObject:
@@ -2829,7 +2829,7 @@ Transform:
   m_Children:
   - {fileID: 36434439}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &1997580781
 CircleCollider2D:
