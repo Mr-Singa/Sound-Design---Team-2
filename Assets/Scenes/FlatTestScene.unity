@@ -2629,12 +2629,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SPEED: 5
-  distance: 0
   player: {fileID: 1066122514}
+  distance: 0
+  chasingRange: 10
   isChasing: 0
-  chasingRange: 20
+  walkPointRange: 20
   randomWalkPoint: {x: 10, y: 10, z: 0}
-  walkPointRange: 0
 --- !u!212 &1997580779
 SpriteRenderer:
   m_ObjectHideFlags: 0

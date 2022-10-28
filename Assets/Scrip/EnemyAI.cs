@@ -27,16 +27,15 @@ public class EnemyAI : MonoBehaviour
         if(distance < chasingRange)
         {
             transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, SPEED * Time.deltaTime);
-            Debug.Log("is chaising player");
+            Debug.Log("is chaising");
         }
         else
         {
             transform.position = Vector2.MoveTowards(this.transform.position, randomWalkPoint, SPEED * Time.deltaTime);
+            Debug.Log("not chasing");
 
             if (transform.position == randomWalkPoint)
             {
-                Debug.Log("end walk");
-
                 randomX = Random.Range(-walkPointRange, walkPointRange);
                 randomY = Random.Range(-walkPointRange, walkPointRange);
 
