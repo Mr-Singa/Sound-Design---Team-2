@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Wall X
   - Wall Y
+  - Wall left
+  - Wall right
+  - Wall top
+  - Wall bottom
   layers:
   - Default
   - TransparentFX
