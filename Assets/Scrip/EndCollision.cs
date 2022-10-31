@@ -16,10 +16,11 @@ public class EndCollision : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("player won");
-
-        audioSource.Stop();
+        if(collision.tag == "Player")
+        {
+            Debug.Log("Player escasped");
+        }
     }
 }

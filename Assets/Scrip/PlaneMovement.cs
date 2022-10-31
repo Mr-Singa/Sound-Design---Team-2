@@ -5,9 +5,6 @@ using UnityEngine;
 public class PlaneMovement : MonoBehaviour
 {
     public float SPEED;
-    public Rigidbody2D rb;
-
-    Vector2 movement;
 
     public AudioSource footstepsNormal;
     public AudioSource footstepsWet;
@@ -15,22 +12,43 @@ public class PlaneMovement : MonoBehaviour
 
     void Update()
     {
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
+        Movement();
+        Rotate();
+    }
 
-        if(Input.GetAxisRaw("Horizontal") != 0 || Input.GetAxisRaw("Vertical") != 0)
+    public void Movement()
+    {
+        if (Input.GetKey(KeyCode.W))
         {
+            transform.position += transform.up * SPEED * Time.deltaTime;
             footstepsNormal.enabled = true;
         }
         else
         {
             footstepsNormal.enabled = false;
+        }
 
+        if (Input.GetKey(KeyCode.S))
+        {
+            transform.position += transform.up * -SPEED * Time.deltaTime;
+            footstepsNormal.enabled = true;
+        }
+        else
+        {
+            footstepsNormal.enabled = false;
         }
     }
 
-    private void FixedUpdate()
+    public void Rotate()
     {
-        rb.MovePosition(rb.position + movement * SPEED * Time.fixedDeltaTime);
+        if (Input.GetKey(KeyCode.A))
+        {
+            transform.Rotate(0, 0, SPEED * 10 * Time.deltaTime);
+        }
+
+        if (Input.GetKey(KeyCode.D))
+        {
+            transform.Rotate(0, 0, -SPEED * 10 * Time.deltaTime);
+        }
     }
 }
