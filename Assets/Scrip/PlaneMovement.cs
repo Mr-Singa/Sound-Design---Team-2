@@ -107,12 +107,12 @@ public class PlaneMovement : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.A))
         {
-            transform.Rotate(0, 0, SPEED * 10 * Time.deltaTime);
+            transform.Rotate(0, 0, SPEED * 25 * Time.deltaTime);
         }
 
         if (Input.GetKey(KeyCode.D))
         {
-            transform.Rotate(0, 0, -SPEED * 10 * Time.deltaTime);
+            transform.Rotate(0, 0, -SPEED * 25 * Time.deltaTime);
         }
     }
 
