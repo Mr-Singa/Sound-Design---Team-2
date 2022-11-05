@@ -15,6 +15,8 @@ public class EnemyAI : MonoBehaviour
     public Vector3 randomWalkPoint;
     float randomX, randomY;
 
+    public AudioClip[] outroLossClips;
+
     void Start()
     {
 
@@ -48,6 +50,9 @@ public class EnemyAI : MonoBehaviour
         if(collision.tag == "Player")
         {
             Debug.Log("Player is cdead");
+            
+            //play outro loss
+            
         }
     }
 }
