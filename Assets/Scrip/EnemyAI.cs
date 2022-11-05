@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class EnemyAI : MonoBehaviour
 {
+    public PlaneMovement playerMove;
+
     public float SPEED;
     public GameObject player;
 
@@ -15,7 +17,10 @@ public class EnemyAI : MonoBehaviour
     public Vector3 randomWalkPoint;
     float randomX, randomY;
 
+    public AudioSource source;
     public AudioClip[] outroLossClips;
+
+    public GameObject sound1;
 
     void Start()
     {
@@ -49,10 +54,26 @@ public class EnemyAI : MonoBehaviour
     {
         if(collision.tag == "Player")
         {
-            Debug.Log("Player is cdead");
-            
-            //play outro loss
-            
+            playerMove.enabled = false;
+            sound1.SetActive(false);
+
+            source.Stop();
+
+            StartCoroutine(EPlayOurto());
+        }
+    }
+
+    public IEnumerator EPlayOurto()
+    {
+        for (int i = 0; i < outroLossClips.Length; i++)
+        {
+            source.PlayOneShot(outroLossClips[i]);
+            yield return new WaitForSeconds(outroLossClips[i].length);
+
+            if(i == 1)
+            {
+                Debug.Log("game over");
+            }
         }
     }
 }

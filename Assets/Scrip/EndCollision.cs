@@ -4,23 +4,22 @@ using UnityEngine;
 
 public class EndCollision : MonoBehaviour
 {
-    public AudioSource audioSource;
+    public PlaneMovement playerMove;
 
-    void Start()
-    {
-        
-    }
-
-    void Update()
-    {
-        
-    }
+    public AudioSource source;
+    public AudioSource winSource;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.tag == "Player")
+        if (collision.tag == "Player")
         {
             Debug.Log("Player escasped");
+
+            playerMove.enabled = false;
+
+            source.volume = 0.2f;
+
+            winSource.Play();
         }
     }
 }

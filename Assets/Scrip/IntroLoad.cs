@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class IntroLoad : MonoBehaviour
 {
-    public float timer;
     public string sceneName;
 
     private void Start()
@@ -15,7 +14,7 @@ public class IntroLoad : MonoBehaviour
 
     public IEnumerator Itimer()
     {
-        yield return new WaitForSeconds(timer);
+        yield return new WaitForSeconds(GetComponent<AudioSource>().clip.length);
 
         SceneManager.LoadScene(sceneName);
     }
