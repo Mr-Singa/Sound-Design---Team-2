@@ -5,6 +5,8 @@ using UnityEngine;
 public class EndCollision : MonoBehaviour
 {
     public PlaneMovement playerMove;
+    public RandomSounds randomSound1;
+    public RandomSounds randomSound2;
 
     public AudioSource source;
     public AudioSource winSource;
@@ -16,6 +18,8 @@ public class EndCollision : MonoBehaviour
             Debug.Log("Player escasped");
 
             playerMove.enabled = false;
+            randomSound1.enabled = false;
+            randomSound2.enabled = false;
 
             source.volume = 0.2f;
 

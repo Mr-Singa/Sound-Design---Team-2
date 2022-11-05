@@ -5,6 +5,8 @@ using UnityEngine;
 public class EnemyAI : MonoBehaviour
 {
     public PlaneMovement playerMove;
+    public RandomSounds randomSound1;
+    public RandomSounds randomSound2;
 
     public float SPEED;
     public GameObject player;
@@ -55,6 +57,9 @@ public class EnemyAI : MonoBehaviour
         if(collision.tag == "Player")
         {
             playerMove.enabled = false;
+            randomSound1.enabled = false;
+            randomSound2.enabled = false;
+
             sound1.SetActive(false);
 
             source.Stop();

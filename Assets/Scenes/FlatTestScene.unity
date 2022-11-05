@@ -2158,6 +2158,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerMove: {fileID: 1066122518}
+  randomSound1: {fileID: 1997580783}
+  randomSound2: {fileID: 1066122523}
   source: {fileID: 965117886}
   winSource: {fileID: 981232549}
 --- !u!58 &965117889
@@ -4203,6 +4205,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerMove: {fileID: 1066122518}
+  randomSound1: {fileID: 1997580783}
+  randomSound2: {fileID: 1066122523}
   SPEED: 0.7
   player: {fileID: 1066122514}
   distance: 0
