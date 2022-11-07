@@ -27,6 +27,8 @@ public class TeleportPlayer : MonoBehaviour
             playerPos.x = (transform.position.x * -1);
 
             gameObject.transform.position = new Vector3(playerPos.x + extraSpace, transform.position.y, 0);
+
+            TeleportGF();
         }
 
         if (collision.tag == "Wall left")
@@ -50,7 +52,7 @@ public class TeleportPlayer : MonoBehaviour
             gameObject.transform.position = new Vector3(transform.position.x, playerPos.y - extraSpace, 0);
         }
 
-        TeleportGF();
+        //TeleportGF();
 
     }
 
@@ -61,6 +63,6 @@ public class TeleportPlayer : MonoBehaviour
 
         Debug.Log(distance);
 
-        girlfriendObj.transform.position = distance;
+        girlfriendObj.transform.position = this.gameObject.transform.position + distance;
     }
 }
