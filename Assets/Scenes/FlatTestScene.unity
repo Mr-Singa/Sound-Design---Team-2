@@ -2437,8 +2437,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SPEED: 1
-  WALKSPEED: 0.75
-  SPRINTSPEED: 1.5
+  WALKSPEED: 1.4
+  SPRINTSPEED: 2
   moveMode: 0
   maxSprintDuration: 5
   pantingDuration: 5
