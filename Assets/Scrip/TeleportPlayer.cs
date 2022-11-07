@@ -7,7 +7,7 @@ public class TeleportPlayer : MonoBehaviour
     public Vector2 playerPos;
     float extraSpace = 1;
 
-    public Vector2 girlfriendObj;
+    public GameObject girlfriendObj;
 
     void Start()
     {
@@ -21,7 +21,6 @@ public class TeleportPlayer : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        //TeleportGF();
 
         if (collision.tag == "Wall right")
         {
@@ -51,16 +50,17 @@ public class TeleportPlayer : MonoBehaviour
             gameObject.transform.position = new Vector3(transform.position.x, playerPos.y - extraSpace, 0);
         }
 
+        TeleportGF();
+
     }
-    /*
+
     public void TeleportGF()
     {
-        Vector2 gfLoc = girlfriendObj.transform.position;
-
-        Vector2 distance = gfLoc - playerPos;
+        Vector3 distance = new Vector3(this.gameObject.transform.position.x - girlfriendObj.transform.position.x,
+            this.gameObject.transform.position.y - girlfriendObj.transform.position.y, 0);
 
         Debug.Log(distance);
 
-        girlfriendObj.transform.position - new Vector3(distance.x, distance.y, 0) = girlfriendObj.transform.position;
-    }*/
+        girlfriendObj.transform.position = distance;
+    }
 }
