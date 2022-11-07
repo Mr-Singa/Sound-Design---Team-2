@@ -940,7 +940,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: b779b58a3ac75d64486db099adcd528a, type: 3}
+  m_audioClip: {fileID: 8300000, guid: e8d04b8206fd6e64fa90cabdd0d947d1, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -2061,7 +2061,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 66e97a2ea4eba53418f22775228fee67, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 0633bb587803aa74d8aec7e71c8b3735, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -2593,25 +2593,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   source: {fileID: 1066122522}
   clips:
-  - {fileID: 8300000, guid: a44a4410aaa6f374787b3b212f07da23, type: 3}
-  - {fileID: 8300000, guid: fa4401a5d423d7f4eaf5e40005006b7e, type: 3}
-  - {fileID: 8300000, guid: 2b373afee14b333469066746ab62fd77, type: 3}
-  - {fileID: 8300000, guid: 80e3e3696cd78f34c8c9a0af33d8941f, type: 3}
-  - {fileID: 8300000, guid: 7ee1011aa356b7e4cba6f0f4c008f1ae, type: 3}
-  - {fileID: 8300000, guid: 46d2fe2a5e7c7e5448dee78fda10d91e, type: 3}
-  - {fileID: 8300000, guid: 7a5dc7bf06b3e30449610aead26e8e64, type: 3}
-  - {fileID: 8300000, guid: 15de1387abd4ee64e940192ca8567d72, type: 3}
-  - {fileID: 8300000, guid: 9dce62e8712b1fb4baba7751fe04685b, type: 3}
-  - {fileID: 8300000, guid: 6cdd97d7a291cf84897bdd0c761a4a85, type: 3}
-  - {fileID: 8300000, guid: f607f1060267c81439ec87ba5394f5fa, type: 3}
-  - {fileID: 8300000, guid: 67e1e957cdb1a0244b018ec55b186ca7, type: 3}
-  - {fileID: 8300000, guid: 075ffaee96b8b054e915cc5097475ba5, type: 3}
-  - {fileID: 8300000, guid: b5b78cb6599e6d345842e86ed7f038fc, type: 3}
-  - {fileID: 8300000, guid: f8b0ef5ffdedcb24c859900bf9a86873, type: 3}
-  - {fileID: 8300000, guid: 47091eca7944fde448547d1f8cb42763, type: 3}
-  - {fileID: 8300000, guid: 84beca1aa8bd89c4f827611eba0bea05, type: 3}
-  - {fileID: 8300000, guid: c89aacb8a7b1d3147aec85cfd92cabf1, type: 3}
-  - {fileID: 8300000, guid: 53e3c711c5dd3a94885ed5657d3e6623, type: 3}
+  - {fileID: 8300000, guid: da45601bebbfed640bd3261adaca0c7e, type: 3}
+  - {fileID: 8300000, guid: f47f1582559ed9a4c926b60bf7980459, type: 3}
+  - {fileID: 8300000, guid: daab9e43c7d49c8418ed02cdb57128df, type: 3}
+  - {fileID: 8300000, guid: 33f31a66c72ad87458014ea300cfd7a9, type: 3}
+  - {fileID: 8300000, guid: 2304acc7de0299747b8ba404cb55f9e2, type: 3}
+  - {fileID: 8300000, guid: 1b89d313d20f01c438653891f8e54663, type: 3}
+  - {fileID: 8300000, guid: a22d0a823d7dcd2439ee5876db904f1b, type: 3}
+  - {fileID: 8300000, guid: 7f3b9c4b63762dc4a85c50b136592f03, type: 3}
+  - {fileID: 8300000, guid: d7b17bb4bc6053f4eab06748e8e7cd1c, type: 3}
+  - {fileID: 8300000, guid: a78e6128226b5fc46ab3f9ca9b1325cb, type: 3}
+  - {fileID: 8300000, guid: fae704fef6ce7bc4480a64a222b729d8, type: 3}
+  - {fileID: 8300000, guid: 87f62705417a46a4e9912d573603a678, type: 3}
+  - {fileID: 8300000, guid: 1ce2e8156703dc1408ee1073503af67b, type: 3}
+  - {fileID: 8300000, guid: a0204c7ec30ff314a84732d023aed333, type: 3}
+  - {fileID: 8300000, guid: 8d498161679825d4d8ea55549ca1e94a, type: 3}
+  - {fileID: 8300000, guid: 48b774d6926b32145b493fa706b05155, type: 3}
+  - {fileID: 8300000, guid: 112af6c9d26c693458234708b4b9449b, type: 3}
+  - {fileID: 8300000, guid: 9633f6a8f6876ff4086c82003b38451d, type: 3}
+  - {fileID: 8300000, guid: de5816ec11e04a74295f1b61704f1ce6, type: 3}
+  - {fileID: 8300000, guid: 706e63be0b88e084a9dbf957719e17d1, type: 3}
+  - {fileID: 8300000, guid: 8c24ecee609b5aa44b445a1310423ee8, type: 3}
+  - {fileID: 8300000, guid: 6180f91dab27de14e8d266b50f6d7ec0, type: 3}
   timerMin: 20
   timerMax: 30
 --- !u!1 &1102996616
@@ -3305,7 +3308,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: b779b58a3ac75d64486db099adcd528a, type: 3}
+  m_audioClip: {fileID: 8300000, guid: e8d04b8206fd6e64fa90cabdd0d947d1, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -3534,7 +3537,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 3b610789ff0ccb647973bb43a94058c8, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 621ec66ea3136384b8c2e54e84e3832a, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -4072,9 +4075,9 @@ MonoBehaviour:
   randomWalkPoint: {x: 10, y: 10, z: 0}
   source: {fileID: 36434440}
   outroLossClips:
-  - {fileID: 8300000, guid: 58219fa3c85edcf47bd7583629aa3786, type: 3}
-  - {fileID: 8300000, guid: c3e23c3065deaf44da64dd212a8e0971, type: 3}
-  - {fileID: 8300000, guid: a346f76891f11074eb61ecf8f72e3884, type: 3}
+  - {fileID: 8300000, guid: 7b16bf07696c21241a6320c75ff6ff84, type: 3}
+  - {fileID: 8300000, guid: ae0ef8cbcf517fa47923b5eb9a24d94c, type: 3}
+  - {fileID: 8300000, guid: 73559be70eca95348908440c333f723a, type: 3}
   sound1: {fileID: 558445834}
 --- !u!212 &1997580779
 SpriteRenderer:
@@ -4289,42 +4292,43 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   source: {fileID: 1997580782}
   clips:
-  - {fileID: 8300000, guid: b127deaba5372c84bb9625b3ba2da73c, type: 3}
-  - {fileID: 8300000, guid: 033122cf89b1a1a44a84e4744fc6554c, type: 3}
-  - {fileID: 8300000, guid: 1fa78cdc242412947b430e45378cf648, type: 3}
-  - {fileID: 8300000, guid: 12bfb2aed3e05034485bb58faa8cca37, type: 3}
-  - {fileID: 8300000, guid: 4ad2dd14afb45fb49ac5fe0db2407329, type: 3}
-  - {fileID: 8300000, guid: 76646633b3a803241a791b1ece9fce7f, type: 3}
-  - {fileID: 8300000, guid: 87b36337e1f3ac3418c6e0279ce720a0, type: 3}
-  - {fileID: 8300000, guid: 50e114e68d745314c9779f266a5a5116, type: 3}
-  - {fileID: 8300000, guid: df8e4c91593d85d4ab06487c32699c0c, type: 3}
-  - {fileID: 8300000, guid: 20913d8d0daf49747b441ee1a196eccf, type: 3}
-  - {fileID: 8300000, guid: 3e237b601e05dbd40a336626257266d7, type: 3}
-  - {fileID: 8300000, guid: aacac85f2d58f5247944cbd11d2b871f, type: 3}
-  - {fileID: 8300000, guid: 7e1d05addc12d414c8c03888e08749c7, type: 3}
-  - {fileID: 8300000, guid: f570b3da61d44ce4a8d0a4e725d59e78, type: 3}
-  - {fileID: 8300000, guid: 2b396015ec43dc04591b01ae3ccd2b8d, type: 3}
-  - {fileID: 8300000, guid: 14073d334330c1a4ab66fd8ffce1cc91, type: 3}
-  - {fileID: 8300000, guid: e568cf045ea5f1747b48d92c13481839, type: 3}
-  - {fileID: 8300000, guid: 8cc6ad7d33f2101469f95af665c3cc70, type: 3}
-  - {fileID: 8300000, guid: 698ae2f661f40f04ca400b70846e7f98, type: 3}
-  - {fileID: 8300000, guid: c68b68ea5c394d243ab41511e55abe2f, type: 3}
-  - {fileID: 8300000, guid: d48c61722ff5c634b91474c3d0a4e0af, type: 3}
-  - {fileID: 8300000, guid: 8d02e3d7dad34094a8f1a34d70a7216e, type: 3}
-  - {fileID: 8300000, guid: ad3b2616a94b7c34483caf2f6f9e2076, type: 3}
-  - {fileID: 8300000, guid: 890485706542cfe4db1c0d7f12048655, type: 3}
-  - {fileID: 8300000, guid: 78be6448dd924bb45a57829a95f9a5d0, type: 3}
-  - {fileID: 8300000, guid: 07018b42ad5504440beb80391b8cc835, type: 3}
-  - {fileID: 8300000, guid: bd1082eb26a233641976c430b74a82ea, type: 3}
-  - {fileID: 8300000, guid: abf8b62f6453ff8429832075ee988273, type: 3}
-  - {fileID: 8300000, guid: 45112c61c051f394aac1396c5bdd832e, type: 3}
-  - {fileID: 8300000, guid: e2ca844c33500a941bbf5f5eb033b263, type: 3}
-  - {fileID: 8300000, guid: a871f44cf3c99aa4bac4066e7e0c6baa, type: 3}
-  - {fileID: 8300000, guid: d17e9ceb4b557574ea5d9b9c04dbfde8, type: 3}
-  - {fileID: 8300000, guid: d33db7d2c6770064399644883f460336, type: 3}
-  - {fileID: 8300000, guid: e6bf4d4fbe8a49b4fba97ac1f924eb5b, type: 3}
-  - {fileID: 8300000, guid: dc1687a2b12904844a0dc4c8c8173115, type: 3}
-  - {fileID: 8300000, guid: a9fd39a344d80de4097d09ee15bce857, type: 3}
+  - {fileID: 8300000, guid: c2cdaa172cbe2a64d9927b82b234cea1, type: 3}
+  - {fileID: 8300000, guid: 4a5d51c6c29c03045a90c361e4642de6, type: 3}
+  - {fileID: 8300000, guid: e7c1716aeac40df498da21219c2cd0df, type: 3}
+  - {fileID: 8300000, guid: ea75de3233521a4478893e6bfd7c10d6, type: 3}
+  - {fileID: 8300000, guid: 5ab9078df83d37740bd6dd00ca3df5ac, type: 3}
+  - {fileID: 8300000, guid: 4a39a75d25831ed4c8b5c2f19a849e3c, type: 3}
+  - {fileID: 8300000, guid: b0d90d3415f74c545a749826db1722d7, type: 3}
+  - {fileID: 8300000, guid: 997733953f5471943a0b141372441c03, type: 3}
+  - {fileID: 8300000, guid: beaedef6c42fb1049b661881f5180fa8, type: 3}
+  - {fileID: 8300000, guid: 684ffc426f0993e4c8c461533928f4b5, type: 3}
+  - {fileID: 8300000, guid: f3a59ea8e2f4ed24f8e787a9c6aa5dbb, type: 3}
+  - {fileID: 8300000, guid: b54ea8e734b52634b9a151d76de583b8, type: 3}
+  - {fileID: 8300000, guid: 0c3ce7ebae562a14e86e0164cb0b2e1a, type: 3}
+  - {fileID: 8300000, guid: e5338bec3f8897842ba8ca4d914fcc6f, type: 3}
+  - {fileID: 8300000, guid: 936f912b8d1997843b68e3cf8bc18ded, type: 3}
+  - {fileID: 8300000, guid: 75630d7cc8b5cb44da4c0a2028a49fc4, type: 3}
+  - {fileID: 8300000, guid: 7a89363eed47a9649ab17f2cabd2e921, type: 3}
+  - {fileID: 8300000, guid: 48b35f0b908c6fe4fa71c3a71e9338ca, type: 3}
+  - {fileID: 8300000, guid: 88933e6c93f65b84690bd6a81145c3b1, type: 3}
+  - {fileID: 8300000, guid: 9b994970fa8f901418863b375d6ef38f, type: 3}
+  - {fileID: 8300000, guid: 5199ed745c8c59b418149b9351abb317, type: 3}
+  - {fileID: 8300000, guid: e4e45115d0eb3c0419c293cef566b831, type: 3}
+  - {fileID: 8300000, guid: b746ab9344d59be46b62fb81756b0dcb, type: 3}
+  - {fileID: 8300000, guid: 13dadf1c0c5315945ba0b4b3ab26a666, type: 3}
+  - {fileID: 8300000, guid: 2a524b1bf41dd1a43b4d84330fd5371e, type: 3}
+  - {fileID: 8300000, guid: 36e052c08e9204e4cb08a01f1c2697e3, type: 3}
+  - {fileID: 8300000, guid: a9d7c9a5ae0901c459f21fe5e79afed0, type: 3}
+  - {fileID: 8300000, guid: 152b7f306f69b7e4aa49505bb7507fdd, type: 3}
+  - {fileID: 8300000, guid: 97472f84c25eab349995fffcae6c0274, type: 3}
+  - {fileID: 8300000, guid: 992917957367a444f8e4c4e364e9928e, type: 3}
+  - {fileID: 8300000, guid: 9813876fc1e8f8f48b861bded3656577, type: 3}
+  - {fileID: 8300000, guid: 605182fb827e0b5479718ee912a397c1, type: 3}
+  - {fileID: 8300000, guid: 6e7f342346f7e664d8ee5a8f1a067e33, type: 3}
+  - {fileID: 8300000, guid: 1335be2e6dda0da42b79e56bb270e4bf, type: 3}
+  - {fileID: 8300000, guid: 7438df1838cc0364a8e06d2953d993f7, type: 3}
+  - {fileID: 8300000, guid: e8bdcbfa13ddcec49b5d5eef765d9d76, type: 3}
+  - {fileID: 8300000, guid: 73fb0aa5e33dcc14a8d6617c2e6024b1, type: 3}
   timerMin: 20
   timerMax: 30
 --- !u!1 &2017103922
