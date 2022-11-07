@@ -2016,6 +2016,7 @@ MonoBehaviour:
   playerMove: {fileID: 1066122518}
   randomSound1: {fileID: 1997580783}
   randomSound2: {fileID: 1066122523}
+  girlFriend: {fileID: 1997580777}
   source: {fileID: 965117886}
   winSource: {fileID: 981232549}
 --- !u!58 &965117889
@@ -2615,8 +2616,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 706e63be0b88e084a9dbf957719e17d1, type: 3}
   - {fileID: 8300000, guid: 8c24ecee609b5aa44b445a1310423ee8, type: 3}
   - {fileID: 8300000, guid: 6180f91dab27de14e8d266b50f6d7ec0, type: 3}
-  timerMin: 20
-  timerMax: 30
+  timerMin: 15
+  timerMax: 20
 --- !u!1 &1102996616
 GameObject:
   m_ObjectHideFlags: 0
@@ -4329,8 +4330,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 7438df1838cc0364a8e06d2953d993f7, type: 3}
   - {fileID: 8300000, guid: e8bdcbfa13ddcec49b5d5eef765d9d76, type: 3}
   - {fileID: 8300000, guid: 73fb0aa5e33dcc14a8d6617c2e6024b1, type: 3}
-  timerMin: 20
-  timerMax: 30
+  timerMin: 15
+  timerMax: 20
 --- !u!1 &2017103922
 GameObject:
   m_ObjectHideFlags: 0

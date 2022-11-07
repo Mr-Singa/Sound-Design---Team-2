@@ -7,6 +7,7 @@ public class EndCollision : MonoBehaviour
     public PlaneMovement playerMove;
     public RandomSounds randomSound1;
     public RandomSounds randomSound2;
+    public GameObject girlFriend;
 
     public AudioSource source;
     public AudioSource winSource;
@@ -20,6 +21,7 @@ public class EndCollision : MonoBehaviour
             playerMove.enabled = false;
             randomSound1.enabled = false;
             randomSound2.enabled = false;
+            girlFriend.SetActive(false);
 
             source.volume = 0.2f;
 
