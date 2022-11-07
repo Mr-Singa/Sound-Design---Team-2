@@ -2476,6 +2476,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerPos: {x: 0, y: 0}
+  girlfriendObj: {fileID: 1997580777}
 --- !u!81 &1066122521
 AudioListener:
   m_ObjectHideFlags: 0
