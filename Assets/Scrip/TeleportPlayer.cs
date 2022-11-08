@@ -28,7 +28,7 @@ public class TeleportPlayer : MonoBehaviour
 
             gameObject.transform.position = new Vector3(playerPos.x + extraSpace, transform.position.y, 0);
 
-            TeleportGF();
+            //TeleportGF();
         }
 
         if (collision.tag == "Wall left")
