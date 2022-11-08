@@ -70,6 +70,8 @@ public class EnemyAI : MonoBehaviour
 
     public IEnumerator EPlayOurto()
     {
+        source.volume = 1f;
+
         for (int i = 0; i < outroLossClips.Length; i++)
         {
             source.PlayOneShot(outroLossClips[i]);

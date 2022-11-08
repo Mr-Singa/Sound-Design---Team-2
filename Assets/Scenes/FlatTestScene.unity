@@ -295,7 +295,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 112973050}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.4, y: -12.44, z: 0}
+  m_LocalPosition: {x: -9.4, y: -12, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -323,7 +323,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 10
+  MaxDistance: 12
   Pan2D: 0
   rolloffMode: 1
   BypassEffects: 0
@@ -1413,7 +1413,7 @@ AudioSource:
   m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 15f240968e0a70b40941f371d20b8456, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 26f2aa875e51a8e49b9d809195ebd383, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.3
   m_Pitch: 1
@@ -1624,7 +1624,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 948000059}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 13.6, y: -5.53, z: 0}
+  m_LocalPosition: {x: 13.1, y: -8.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1653,7 +1653,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1.5
-  MaxDistance: 8
+  MaxDistance: 11
   Pan2D: 0
   rolloffMode: 1
   BypassEffects: 0
@@ -2414,7 +2414,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1066122514}
   m_LocalRotation: {x: 0, y: 0, z: 0.42261827, w: 0.9063079}
-  m_LocalPosition: {x: 15.82, y: -18.07, z: 0}
+  m_LocalPosition: {x: 15.2, y: -16.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2438,7 +2438,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SPEED: 1
-  WALKSPEED: 1.4
+  WALKSPEED: 1.25
   SPRINTSPEED: 2
   moveMode: 0
   maxSprintDuration: 5
@@ -2617,7 +2617,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 706e63be0b88e084a9dbf957719e17d1, type: 3}
   - {fileID: 8300000, guid: 8c24ecee609b5aa44b445a1310423ee8, type: 3}
   - {fileID: 8300000, guid: 6180f91dab27de14e8d266b50f6d7ec0, type: 3}
-  timerMin: 15
+  timerMin: 10
   timerMax: 20
 --- !u!1 &1102996616
 GameObject:
@@ -4331,7 +4331,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 7438df1838cc0364a8e06d2953d993f7, type: 3}
   - {fileID: 8300000, guid: e8bdcbfa13ddcec49b5d5eef765d9d76, type: 3}
   - {fileID: 8300000, guid: 73fb0aa5e33dcc14a8d6617c2e6024b1, type: 3}
-  timerMin: 15
+  timerMin: 10
   timerMax: 20
 --- !u!1 &2017103922
 GameObject:
